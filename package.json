@@ -1,7 +1,7 @@
 {
   "name": "toonsutra",
   "version": "0.1.0",
-  "homepage": "http://sidedesert.github.io/toonSutraRevamp",
+  "homepage": "http://sidedesert.github.io/toon-sutra-revamp",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
