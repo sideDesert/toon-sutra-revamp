@@ -1,7 +1,7 @@
 {
   "name": "toonsutra",
   "version": "0.1.0",
-  "homepage": "http://sidedesert.github.io/toon-sutra-revamp",
+  "homepage": ".",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "csv-parse": "^5.3.2",
     "csvtojson": "^2.0.10",
+    "flowbite": "^1.6.5",
     "fs": "^0.0.1-security",
     "papaparse": "^5.3.2",
     "react": "^18.2.0",
@@ -16,13 +17,14 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.4.3",
-    "react-scripts": "5.0.1",
-    "tw-elements": "^1.0.0-alpha12",
-    "web-vitals": "^2.1.4",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "react-scripts": "^5.0.1",
+    "tailwindcss": "^3.3.1",
+    "tw-elements": "^1.0.0-beta2",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -49,7 +51,6 @@
   "devDependencies": {
     "autoprefixer": "^10.4.8",
     "gh-pages": "^5.0.0",
-    "postcss": "^8.4.16",
-    "tailwindcss": "^3.1.8"
+    "postcss": "^8.4.16"
   }
 }
